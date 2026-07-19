@@ -377,3 +377,118 @@ article p{
         line-height:1.9;
     }
 }
+/* MENU */
+
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    padding:28px 60px;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:40px;
+
+    background:rgba(243,239,232,.92);
+
+    backdrop-filter:blur(10px);
+
+    z-index:1000;
+
+}
+
+nav a{
+
+    color:var(--texto);
+
+    text-decoration:none;
+
+    font-size:.95rem;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:var(--bordo);
+
+}
+/* SEÇÕES */
+
+#sobre,
+#contato{
+
+    padding:120px 20px;
+
+    background:var(--fundo);
+
+}
+
+.conteudo{
+
+    max-width:850px;
+
+    margin:auto;
+
+}
+
+.conteudo h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:3.2rem;
+
+    font-weight:500;
+
+    margin-bottom:50px;
+
+}
+
+.conteudo p{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:1.4rem;
+
+    line-height:2;
+
+    margin-bottom:30px;
+
+}
+
+.links-contato{
+
+    margin-top:50px;
+
+    display:flex;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.links-contato a{
+
+    color:var(--bordo);
+
+    text-decoration:none;
+
+    border-bottom:1px solid transparent;
+
+    transition:.3s;
+
+}
+
+.links-contato a:hover{
+
+    border-color:var(--bordo);
+
+}
