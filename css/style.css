@@ -180,6 +180,38 @@ h1{
 
     transition:.35s;
 
+    display:flex;
+
+    gap:28px;
+
+    align-items:flex-start;
+
+}
+
+.capa{
+
+    width:90px;
+
+    height:130px;
+
+    object-fit:cover;
+
+    border:1px solid var(--linha);
+
+    flex-shrink:0;
+
+    background:#EAE5DB;
+
+    display:block;
+
+    transition:.3s;
+
+}
+
+.conto-info{
+
+    flex:1;
+
 }
 
 .conto:last-child{
