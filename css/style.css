@@ -60,21 +60,14 @@ body{
 
 .monograma{
 
-    color:var(--bordo);
+    width:200px;
 
-    font-family:'Cormorant Garamond',serif;
+    height:auto;
 
-    font-size:1.3rem;
-
-    letter-spacing:5px;
-
-    padding-bottom:14px;
-
-    border-bottom:1px solid var(--bordo);
-
-    margin-bottom:70px;
+    margin-bottom:50px;
 
 }
+
 
 h1{
 
