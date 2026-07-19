@@ -492,3 +492,88 @@ nav a:hover{
     border-color:var(--bordo);
 
 }
+/*==========================
+A AUTORA
+==========================*/
+
+#sobre{
+
+    background:#F8F6F2;
+
+    padding:140px 40px;
+
+}
+
+.sobre-container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:320px 1fr;
+
+    gap:90px;
+
+    align-items:start;
+
+}
+
+.sobre-foto{
+
+    position:sticky;
+
+    top:120px;
+
+}
+
+.sobre-foto img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:3px;
+
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+
+}
+
+.sobre-texto h2{
+
+    color:var(--bordo);
+
+    text-transform:uppercase;
+
+    letter-spacing:5px;
+
+    font-size:.85rem;
+
+    margin-bottom:15px;
+
+}
+
+.sobre-texto h3{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:3.4rem;
+
+    font-weight:500;
+
+    margin-bottom:40px;
+
+}
+
+.sobre-texto p{
+
+    font-size:1.1rem;
+
+    line-height:2.1;
+
+    margin-bottom:28px;
+
+    max-width:680px;
+
+}
